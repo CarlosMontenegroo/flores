@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("amarillasss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.flower {
+    background-image: url('flores.jpg'); /* Asegúrate de tener una imagen de flor amarilla en la misma carpeta con este nombre */
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+audio {
+    width: 100%;
+    max-width: 300px; /* Ajusta el ancho máximo según tu diseño */
+    margin: 20px auto;
+    display: block;
+}
